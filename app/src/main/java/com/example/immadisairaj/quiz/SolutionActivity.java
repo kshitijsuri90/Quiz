@@ -53,8 +53,6 @@ public class SolutionActivity extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         Intent intent = new Intent(this,QuizActivity.class);
-        intent.addCategory(Intent.CATEGORY_HOME);
-        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(intent);
     }
 
